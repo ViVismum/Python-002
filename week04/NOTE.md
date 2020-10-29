@@ -1,37 +1,18 @@
 # 学习笔记
+2020.10.14
 
-## pandas简介
+本周学习了pandas、sklearn模块
 
-### sklearn模块
+## pandas
 
-```python
-from sklearn import datasets # 引数据集
-
-# 鸢尾花数据集
-iris = datasets.load_iris()
-x, y = iris.data, iris.target
-# 查看特征
-iris.feature_names
-# 查看标签
-iris.target_names
-```
-
-load_xxx加载数据
-
-load_boston  Boston房价
-
-load_digits 手写体
-
-### pandas
-
- **2. pandas 中文文档：**
+ **1. pandas 中文文档：**
 https://www.pypandas.cn/
 sklearn-pandas
-**3. 安装参考文档：**
+**2. 安装参考文档：**
 https://pypi.org/project/sklearn-pandas/1.5.0/
-**4. Numpy 学习文档：**
+**3. Numpy 学习文档：**
 https://numpy.org/doc/
-**5. matplotlib 学习文档：**
+**4. matplotlib 学习文档：**
 https://matplotlib.org/contents.html 
 
 ## pandas基本数据类型
